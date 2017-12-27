@@ -32,11 +32,6 @@ public class HesapMakinesiTaslak {
             int total = sayi1 + sayi2;
             System.out.println(sayi1 + " + " + sayi2 + " = " + total);
         }
-
-
-
-
-
-
+        // Kalan islemleri benzer sekilde yazin.
     }
 }
