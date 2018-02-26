@@ -11,14 +11,14 @@ public class SayMyName {
         int life = 3;
         String guess;
         System.out.println("Say my name!");
-		/*hak 0 olmadigi surece donguye devam et. Burada life != 0 alwasy true warningi gorebilirsiniz. Derste bunu fark etmemistim
+		/*hak 0 olmadigi surece donguye devam et. Burada life != 0 always true warningi gorebilirsiniz. Derste bunu fark etmemistim
 		 * ama bu warningin sebebi life 0 a esit olunca zaten break ile donguden cikiyoruz dolayisiyle life 0 a esit oldugu zaman while
 		 * icindeki ifade kontrol edilmeyecek. */
         while (life != 0) {
             System.out.println("Bir tahmin giriniz: ");
             guess = scnaner.nextLine();
 			// Tahmin dogruysa oyunu bitir
-            if(guess.equalsIgnoreCase("Heisenberg")) {
+            if(guess.equalsIgnoreCase(myName)) {
                 System.out.println("You're goddamn right!");
                 break;
             }

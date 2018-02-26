@@ -11,13 +11,14 @@ public class ParaYatirmaCekmeOrnegi {
         System.out.println("Su anki bakiye miktariniz : " + bakiye);
         System.out.println("(1) Para Cekme");
         System.out.println("(2) Para Yatirma");
-        System.out.println("Yapmak istediginiz islem numarsini giriniz");
+        System.out.println("Yapmak istediginiz islem numarasini giriniz");
 
         int secim = scanner.nextInt(); //Kullanicinin secimini tutuyoruz.
 
         if (secim == 1) {
-            /* Buradaki bakiye == 0 in ustu sari renkle cizili buun sebebi bakiyenin hicbir
-               zaman 0 a esit olmayacagini dolayisiyla boyle bir if statementı kullanmamizin
+            /* 
+	       Buradaki bakiye == 0 in ustu sari renkle cizili bunun sebebi bakiyenin hicbir
+               zaman 0 a esit olmayacagini dolayisiyla boyle bir if statementi kullanmamizin
                gereksiz oldugunu soyluyor. İleriki derslerde kullanimini gerekli hale getirip
                daha detayli inceleyecegiz :)
              */
@@ -32,7 +33,7 @@ public class ParaYatirmaCekmeOrnegi {
                     System.out.println("Hesabinizda bu kadar para bulunmamaktadir.");
                 }
                 else {
-                    bakiye -= miktar; //Bu ifade bakiye = bakiye - miktar ile aynı sey.
+                    bakiye -= miktar; //Bu ifade bakiye = bakiye - miktar ile ayni sey.
                     System.out.println("Kalan bakiye miktariniz : " + bakiye);
                 }
             }
