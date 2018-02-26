@@ -1,5 +1,3 @@
-package com.company;
-
 import java.util.Scanner;
 
 public class FindAverage {
@@ -7,7 +5,7 @@ public class FindAverage {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        //Kac sayi girilcegini aliyoruz aynı zamanda ortalama alirken kullanıcaz.
+        //Kac sayi girilecegini aliyoruz ayni zamanda ortalama alirken kullanacagiz.
         System.out.println("Gireceginiz sayilarin adetini giriniz : ");
         int count = scanner.nextInt();
         //Ortalamayi double olarak tanimladik cunku ortalama tam sayi olmayabilir.
